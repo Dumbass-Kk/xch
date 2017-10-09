@@ -1,12 +1,25 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/settings/person"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "找吃的"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "我的标签"
+    },{
+      "pagePath": "pages/settings/person",
+      "text": "个人中心"
+    }]
   }
 }

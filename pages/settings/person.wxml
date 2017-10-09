@@ -1,12 +1,17 @@
-<!--index.wxml-->
-<view class="container">
+<!--pages/settings/person.wxml-->
+<view class='settings'>
   <view class="userinfo">
     <block>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class='list-menu'>
+    <view class='item-menu'>
+      <text>待吃清单</text>
+    </view> 
+    <view class='item-menu'>
+      <text>意见反馈</text>
+    </view> 
   </view>
 </view>
